@@ -37,7 +37,7 @@ def get_location_name(latitude, longitude):
 
 # Example Usage:
 CURR_DIR_PATH = os.getcwd()
-photo_path = CURR_DIR_PATH + '/cinisi.jpg'
+photo_path = CURR_DIR_PATH + '/gdansk.jpg'
 location = extract_gps_info(photo_path)
 if location:
     print("\nThe geolocation information for the photo:")
